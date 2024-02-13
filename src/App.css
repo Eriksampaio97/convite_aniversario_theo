@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  max-width: 458px;
+  
+  background-image: url('./assets/background-minecraft.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.read-the-docs {
-  color: #888;
+.container__info {
+  max-width: 458px;
+  margin-top: 115px;
+}
+.container__name {
+  max-width: 458px;
+}
+.title {
+  color: #976949;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom:5px;
+}
+.subtitle {
+  color: #976949;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.nameText {
+  color: #5ea036;
+  margin: 0;
+  font-size: 64px;
+  text-align: center;
+  /* text-shadow: #5ea036 0.1em 0.1em 0.2em */
+}
+
+.age {
+  color: #5ea036;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.container__date {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+
+.day {
+  color: #976949;
+  font-size: 26px;
+  margin: 25px 0;
+}
+
+.date {
+  color: #976949;
+  font-size: 24px;
+}
+
+.hour {
+  color: #976949;
+  font-size: 26px;
+  margin: 25px 0;
 }
