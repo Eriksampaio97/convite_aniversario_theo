@@ -10,6 +10,9 @@ function App() {
     <>
       {/* <div>Hello World!</div> */}
       <div className='card'>
+        <div className='teste'>
+
+        
         <div className='container__info'>
           <div className="content_info">
             <p className='title'>Estou completando mais uma fase!</p>
@@ -45,8 +48,10 @@ function App() {
               </div>
             </div>
           </div>
+          
         </div>
-
+        
+        </div>
       </div>
     </>
   )
