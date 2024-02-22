@@ -35,22 +35,25 @@ function App() {
             <p className='hour'>Às 20:30hrs</p>
             <div className='buttons'>
               <div className='container__button'>
-                <a href='www.google.com' className='optionButton'><img src={localizacao} alt="" className='button_image'/></a>
+                <a href='https://maps.app.goo.gl/wqSrSrJPwhZjcKGm7' target='_blank' className='optionButton'><img src={localizacao} alt="" className='button_image'/></a>
                 <p className='buttonText'>localização</p>
               </div>
               <div className='container__button'>
-              <a href='www.google.com' className='optionButton'><img src={confirmation} alt="" className='button_image'/></a>
+              <a href='https://api.whatsapp.com/send?phone=5516994397887&text=https://encurtador.com.br/bnOX9%0A%0AOl%C3%A1,%0AGostaria%20de%20confirmar%20presen%C3%A7a%20no%20anivers%C3%A1rio%20do%20Th%C3%A9o!' target='_blank' className='optionButton'><img src={confirmation} alt="" className='button_image'/></a>
                 <p className='buttonText'>Confirmação</p>
               </div>
-              <div className='container__button'>
+              {/* <div className='container__button'>
                 <button className='optionButton'><img src={gift} alt="" className='button_image'/></button>
                 <p className='buttonText'>Dicas de presente</p>
-              </div>
+              </div> */}
             </div>
           </div>
-          
         </div>
-        
+        <div className='container__message'>
+          <div className="content__message">
+            <p className='message'>Traga seu cooler <br />Com sua bebida preferida!</p>
+          </div>
+        </div>
         </div>
       </div>
     </>
