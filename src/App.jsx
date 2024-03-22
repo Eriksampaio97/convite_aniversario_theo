@@ -32,14 +32,14 @@ function App() {
             <p className='month'>Março</p>
           </div>
           <div className="content_locale">
-            <p className='hour'>Às 20:30hrs</p>
+            <p className='hour'>Às 19:30hrs</p>
             <div className='buttons'>
               <div className='container__button'>
                 <a href='https://maps.app.goo.gl/wqSrSrJPwhZjcKGm7' target='_blank' className='optionButton'><img src={localizacao} alt="" className='button_image'/></a>
                 <p className='buttonText'>localização</p>
               </div>
               <div className='container__button'>
-              <a href='https://api.whatsapp.com/send?phone=5516994397887&text=https://encurtador.com.br/bnOX9%0A%0AOl%C3%A1,%0AGostaria%20de%20confirmar%20presen%C3%A7a%20no%20anivers%C3%A1rio%20do%20Th%C3%A9o!' target='_blank' className='optionButton'><img src={confirmation} alt="" className='button_image'/></a>
+              <a href='https://api.whatsapp.com/send?phone=5516&text=https://encurtador.com.br/bnOX9%0A%0AOl%C3%A1,%0AGostaria%20de%20confirmar%20presen%C3%A7a%20no%20anivers%C3%A1rio%20do%20Th%C3%A9o!' target='_blank' className='optionButton'><img src={confirmation} alt="" className='button_image'/></a>
                 <p className='buttonText'>Confirmação</p>
               </div>
               {/* <div className='container__button'>
